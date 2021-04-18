@@ -1,0 +1,11 @@
+nome = input('Escreva o seu nome completo:').strip()
+primeiro = nome.find(" ")
+ultimo = int(nome.rfind(" "))
+total = len(nome)
+print('Seu primeiro nome é: {}'.format(nome[ :primeiro]))
+print('Seu último nome é: {}'.format(nome[(ultimo+1):]))
+
+name = input('Qual seu nome:').strip()
+name = name.split()
+print('Seu primeiro nome é: {}'.format(name[1]))
+print('Seu último nome é: {}'.format(name[len(name)-1]))
